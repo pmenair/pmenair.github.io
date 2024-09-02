@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/pmenair
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://pmenair.com
+  * I am pmenair (https://keybase.io/pmenair) on keybase.
+  * I have a public key ASD1OlAMcaXddshuEg9P83QpBELhhlRiSQtz3_O1ZoMgrwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f53a500c71a5dd76c86e120f4ff374290442e1865462490b73dff3b5668320af0a",
+      "host": "keybase.io",
+      "kid": "0120f53a500c71a5dd76c86e120f4ff374290442e1865462490b73dff3b5668320af0a",
+      "uid": "0fda452f0b6e10de9afd55a2221cd119",
+      "username": "pmenair"
+    },
+    "merkle_root": {
+      "ctime": 1725302471,
+      "hash": "e32e2b922886dfe9e13473ad9ed962cf1ca2bab22716a910e03dd28ebf837c03fc793cad102254ba02c194a06cfa0a29a28d38af500140d2e271e44830883141",
+      "hash_meta": "926451bb7d73bd897b2444d0bb685d9fd99c02b3e5dbb4f51d740d4746587617",
+      "seqno": 26066663
+    },
+    "service": {
+      "entropy": "MZm6JNNMUqIqCApp6WNe8/93",
+      "hostname": "pmenair.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.4.0"
+  },
+  "ctime": 1725302530,
+  "expire_in": 504576000,
+  "prev": "b01e2f9b4eefe2d95979dc447b7bd83f27961b3d260b14bd9dec5081b175b749",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg9TpQDHGl3XbIbhIPT/N0KQRC4YZUYkkLc9/ztWaDIK8Kp3BheWxvYWTESpcCBMQgsB4vm07v4tlZedxEe3vYPyeWGz0mCxS9nexQgbF1t0nEIIRz3m1Wtl8e8aav1lPkKkVj/DeH4dO6BY12IYJ3wWJBAgHCo3NpZ8RAlnuFMpTeQGLqkyymxd18xlVPklT39GsKSTwX+4HlGXt29qjCeYtlUM/2wX3efzkrbItaVCwM52ye/gv07PpQBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINJXe5rPYu4NGpFOLpjGtfP6cc3IRZLPaBpnq924Yfd+o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pmenair
+
+==================================================================
