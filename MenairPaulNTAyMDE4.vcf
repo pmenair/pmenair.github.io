@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:2.1
+N;LANGUAGE=en-us:Menair;Paul;David;Mr.
+FN:Mr. Paul David Menair
+ORG:The Law Office of Steven Leibel PC
+TEL;WORK;VOICE:404-892-0700
+TEL;WORK;FAX:
+ADR;WORK;PREF:;Folger House;3619 S Chestatee;Dahlonega;GA;30533;United States
+LABEL;WORK;PREF;ENCODING=QUOTED-PRINTABLE:Folger House 3619 S Chestatee
+Dahlonega, GA 30533	
+EMAIL;PREF;INTERNET:paul@leibel.com
+END:VCARD
