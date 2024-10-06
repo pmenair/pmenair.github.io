@@ -2,12 +2,10 @@
       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
       xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
       xmlns:foaf="http://xmlns.com/foaf/0.1/"
-      xmlns:admin="http://webns.net/mvcb/">
+      xmlns:cert="http://www.w3.org/ns/auth/cert#">
 <foaf:PersonalProfileDocument rdf:about="">
   <foaf:maker rdf:resource="#me"/>
   <foaf:primaryTopic rdf:resource="#me"/>
-  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
-  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
 </foaf:PersonalProfileDocument>
 <foaf:Person rdf:ID="me">
 <foaf:name>Paul  Menair</foaf:name>
@@ -18,4 +16,12 @@
 <foaf:homepage rdf:resource="pmenair.com"/>
 <foaf:workplaceHomepage rdf:resource="leibel.com"/>
 <foaf:workInfoHomepage rdf:resource="Attorney"/></foaf:Person>
+ <foaf:Person rdf:about="#me">
+        <cert:key>
+            <cert:RSAPublicKey>
+                <cert:modulus rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">00c76081663cff30e2ecb7c1542c0f1549c92f71bc6d603ff1cd44c02da6dc94b0a425866b9bc58fdb10ddc0fb44845fd6b8b7ced2c09d9ac2b0d4241e5efe406b184c3dde269b3110ed725d7f31fbe4c4bdc20c70456030eb61982553d884ff38255a0338b444916e6c62915f457eeeb1115298cc39e0f53a6b6c6958002eec559204409d12764dc49f09aa3820fdd810b793ff8451833cf558ed46e94da63edd4ef1db6825b32c8fdb0b3d31c3336dcfe68a3100d411dbaeae9bc6535fc11ff4e0b26f6b270ca88fa87d0be379c0c232f9fee26bc97d2616f5cb07d796b08d8a829ea7d4355f35b904ca996ddcd65c95943445f60613240ad37cce82783cb899</cert:modulus>
+                <cert:exponent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65537</cert:exponent>
+            </cert:RSAPublicKey>
+        </cert:key>
+    </foaf:Person>
 </rdf:RDF>
