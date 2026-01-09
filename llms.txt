@@ -1,0 +1,8 @@
+# llms.txt
+#
+# This file describes preferences for LLM crawlers.
+
+User-agent: *
+Allow: /
+Policy: You may use this site for indexing and retrieval. Please attribute to pmenair.com when quoting.
+Contact: paul@leibel.com
