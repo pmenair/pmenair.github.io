@@ -56,8 +56,8 @@ a:focus {
 #layout {
   display: flex;
   align-items: flex-start;
-  gap: 60px;
-  max-width: 860px;
+  gap: 28px;
+  max-width: 880px;
   padding: 60px;
 }
 
@@ -68,7 +68,7 @@ a:focus {
 
 #photo-card {
   flex-shrink: 0;
-  width: 320px;
+  width: 360px;
   position: sticky;
   top: 60px;
 }
