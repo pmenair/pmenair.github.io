@@ -26,6 +26,7 @@ a:focus { outline: 2px solid #FFFFFF; outline-offset: 2px; }
 ul { list-style: none; color: #FFFFFF; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; }
 .p-note { color: lightblue; font-family: Georgia, "Times New Roman", serif; }
 .link-group { margin-top: 22px; }
+.link-group a { font-family: Georgia, "Times New Roman", serif; }
 .link-heading { color: #FFFFFF; font-family: Helvetica, Arial, sans-serif; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; margin-top: 22px; }
 .skip-link {
   position: absolute;
