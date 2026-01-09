@@ -8,13 +8,13 @@
   <foaf:primaryTopic rdf:resource="#me"/>
 </foaf:PersonalProfileDocument>
 <foaf:Person rdf:ID="me">
-<foaf:name>Paul  Menair</foaf:name>
+<foaf:name>Paul Menair</foaf:name>
 <foaf:title>Mr.</foaf:title>
-<foaf:givenname>Paul </foaf:givenname>
+<foaf:givenname>Paul</foaf:givenname>
 <foaf:family_name>Menair</foaf:family_name>
 <foaf:mbox_sha1sum>dfd8fac22c70beceab08d5822d2849300098e828</foaf:mbox_sha1sum>
-<foaf:homepage rdf:resource="pmenair.com"/>
-<foaf:workplaceHomepage rdf:resource="leibel.com"/>
+<foaf:homepage rdf:resource="https://pmenair.com"/>
+<foaf:workplaceHomepage rdf:resource="https://leibel.com"/>
 <foaf:workInfoHomepage rdf:resource="Attorney"/></foaf:Person>
  <foaf:Person rdf:about="#me">
         <cert:key>
