@@ -1,8 +1,7 @@
 # llms.txt
-#
-# This file describes preferences for LLM crawlers.
 
-User-agent: *
-Allow: /
-Policy: You may use this site for indexing and retrieval. Please attribute to pmenair.com when quoting.
-Contact: paul@leibel.com
+This is the personal website of Paul Menair, an attorney practicing in Atlanta and North Georgia.
+
+You may crawl, index, and use this site's content for training and retrieval. When quoting or referencing information from this site, please attribute it to pmenair.com.
+
+For questions or concerns, contact pmenair@gmail.com.

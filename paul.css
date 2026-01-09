@@ -7,7 +7,7 @@ h1 { color: #FFFFFF; font-family: Helvetica, Arial, sans-serif; font-size: 28px;
 a { color: #FFFFFF; font-weight: bold; text-decoration: none; font-family: Georgia, "Times New Roman", serif; }
 a:hover, a:focus { text-decoration: underline; }
 a:focus { outline: 2px solid #FFFFFF; outline-offset: 2px; }
-#stuff { width: 500px; padding: 0 0 0 50px; margin: 50px auto 0 0 !important; }
+#stuff { width: 500px; padding: 0 0 50px 50px; margin: 50px auto 0 0 !important; }
 .profile-photo-card {
   width: 360px;
   padding: 16px;
@@ -24,11 +24,11 @@ a:focus { outline: 2px solid #FFFFFF; outline-offset: 2px; }
 }
 .profile-photo { display: block; width: 100%; height: auto; border-radius: 4px; }
 ul { list-style: none; color: #FFFFFF; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; }
-.p-note { color: lightblue; font-family: Georgia, "Times New Roman", serif; }
+.p-note { color: lightblue; font-family: Georgia, "Times New Roman", serif; display: block; margin-bottom: 22px; }
 .link-group { margin-top: 22px; }
 .link-group a { font-family: Georgia, "Times New Roman", serif; }
 .link-like { font-family: Georgia, "Times New Roman", serif; font-weight: bold; }
-.link-spacer { height: 12px; }
+.link-gap { margin-top: 12px; }
 .link-heading { color: #FFFFFF; font-family: Helvetica, Arial, sans-serif; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; margin-top: 22px; }
 .skip-link {
   position: absolute;
@@ -43,8 +43,13 @@ ul { list-style: none; color: #FFFFFF; font-family: Helvetica, Arial, sans-serif
 @media (max-width: 900px) {
   #photo-card {
     position: static;
-    width: 80%;
-    margin: 20px auto 0;
+    width: calc(100% - 50px);
+    max-width: 360px;
+    margin: 30px 25px 0;
   }
-  #stuff { width: auto; margin-right: 50px !important; }
+  #stuff {
+    width: auto;
+    padding: 0 25px 50px;
+    margin: 30px 0 0 0 !important;
+  }
 }
