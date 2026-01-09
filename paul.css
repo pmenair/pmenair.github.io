@@ -4,7 +4,7 @@ body {
 }
 p { color: #FFFFFF; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; margin-bottom: 22px; }
 h1 { color: #FFFFFF; font-family: Helvetica, Arial, sans-serif; font-size: 28px; line-height: 32px; margin-bottom: 20px; }
-a { color: #FFFFFF; font-weight: bold; text-decoration: none; font-family: Helvetica, Arial, sans-serif; }
+a { color: #FFFFFF; font-weight: bold; text-decoration: none; font-family: Georgia, "Times New Roman", serif; }
 a:hover, a:focus { text-decoration: underline; }
 a:focus { outline: 2px solid #FFFFFF; outline-offset: 2px; }
 #stuff { width: 500px; padding: 0 0 0 50px; margin: 50px auto 0 0 !important; }
@@ -24,7 +24,7 @@ a:focus { outline: 2px solid #FFFFFF; outline-offset: 2px; }
 }
 .profile-photo { display: block; width: 100%; height: auto; border-radius: 4px; }
 ul { list-style: none; color: #FFFFFF; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; }
-.p-note { color: lightblue; }
+.p-note { color: lightblue; font-family: Georgia, "Times New Roman", serif; }
 .link-group { margin-top: 22px; }
 .link-heading { color: #FFFFFF; font-family: Helvetica, Arial, sans-serif; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; margin-top: 22px; }
 .skip-link {
